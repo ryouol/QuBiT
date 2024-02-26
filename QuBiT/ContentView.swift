@@ -4,43 +4,67 @@
 //
 //  Created by Roy Luo on 2024-02-23.
 //
-
 import SwiftUI
 import RealityKit
 
-struct ContentView : View {
+struct ContentView: View {
+    // Define some colors from the logo to use in the UI
+    let darkBackground = Color(red: 0x1e / 255, green: 0x29 / 255, blue: 0x2d / 255)
+    let accentColor = Color.white
+    
+//    init(){
+//        for familyName in UIFont.familyNames {
+//            print(familyName)
+//            for fontName in UIFont.fontNames(forFamilyName: familyName){
+//                print("--\(fontName)")
+//            }
+//        }
+//    }
+     
     var body: some View {
-        ARViewContainer().edgesIgnoringSafeArea(.all)
+        NavigationView {
+            ZStack {
+                // Use the dark background color
+                darkBackground.edgesIgnoringSafeArea(.all)
+                
+                VStack {
+                    Spacer()
+                    
+                    Image("qubit")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(width: 300, height: 400)
+                    
+                    Spacer()
+                    
+                    // Start Journey button
+                    NavigationLink(destination: ClassicalComputingView()) {
+                        Text("Start Journey")
+                            .font(.custom("CascadiaCode-Regular", size: 20))
+                            .fontWeight(.semibold)
+                            .foregroundColor(darkBackground)
+                            .padding()
+                            .frame(maxWidth: .infinity)
+                            .background(accentColor)
+                            .cornerRadius(10)
+                            .padding(.horizontal)
+                    }
+                   
+                    Spacer()
+                }
+            }
+            .navigationBarTitle(Text("QuBiT"), displayMode: .inline)
+            .navigationBarHidden(true)
+        }
     }
 }
 
-struct ARViewContainer: UIViewRepresentable {
-    
-    func makeUIView(context: Context) -> ARView {
-        
-        let arView = ARView(frame: .zero)
-
-        // Create a cube model
-        let mesh = MeshResource.generateBox(size: 0.1, cornerRadius: 0.005)
-        let material = SimpleMaterial(color: .gray, roughness: 0.15, isMetallic: true)
-        let model = ModelEntity(mesh: mesh, materials: [material])
-        model.transform.translation.y = 0.05
-
-        // Create horizontal plane anchor for the content
-        let anchor = AnchorEntity(.plane(.horizontal, classification: .any, minimumBounds: SIMD2<Float>(0.2, 0.2)))
-        anchor.children.append(model)
-
-        // Add the horizontal plane anchor to the scene
-        arView.scene.anchors.append(anchor)
-
-        return arView
-        
+#if DEBUG
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
     }
-    
-    func updateUIView(_ uiView: ARView, context: Context) {}
-    
 }
+#endif
 
-#Preview {
-    ContentView()
-}
+

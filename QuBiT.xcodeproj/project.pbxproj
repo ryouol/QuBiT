@@ -11,6 +11,18 @@
 		68F0C38C2B89359C00440215 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C38B2B89359C00440215 /* ContentView.swift */; };
 		68F0C38E2B89359D00440215 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F0C38D2B89359D00440215 /* Assets.xcassets */; };
 		68F0C3912B89359D00440215 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 68F0C3902B89359D00440215 /* Preview Assets.xcassets */; };
+		68F0C39A2B8ABF7F00440215 /* ClassicalComputingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3992B8ABF7F00440215 /* ClassicalComputingView.swift */; };
+		68F0C39C2B8AC63100440215 /* LogicGatesInteractiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C39B2B8AC63100440215 /* LogicGatesInteractiveView.swift */; };
+		68F0C39F2B8AF0E700440215 /* CascadiaCode.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 68F0C39E2B8AF0E700440215 /* CascadiaCode.ttf */; };
+		68F0C3A22B8B13A100440215 /* QuantumComputingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3A12B8B13A100440215 /* QuantumComputingView.swift */; };
+		68F0C3A42B8BE7C900440215 /* QuantumParticleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3A32B8BE7C900440215 /* QuantumParticleView.swift */; };
+		68F0C3A62B8BE7EE00440215 /* PhotonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3A52B8BE7EE00440215 /* PhotonsView.swift */; };
+		68F0C3A82B8BE83000440215 /* AtomsAndIonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3A72B8BE83000440215 /* AtomsAndIonsView.swift */; };
+		68F0C3AA2B8BE84500440215 /* SuperConductingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3A92B8BE84500440215 /* SuperConductingView.swift */; };
+		68F0C3AC2B8BF41300440215 /* ARQuantPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3AB2B8BF41300440215 /* ARQuantPart.swift */; };
+		68F0C3AE2B8BF59B00440215 /* ARPhotos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3AD2B8BF59B00440215 /* ARPhotos.swift */; };
+		68F0C3B22B8BFC9500440215 /* ARAtoms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3B12B8BFC9500440215 /* ARAtoms.swift */; };
+		68F0C3B42B8BFDB300440215 /* ARSuper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F0C3B32B8BFDB300440215 /* ARSuper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,19 @@
 		68F0C38B2B89359C00440215 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		68F0C38D2B89359D00440215 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		68F0C3902B89359D00440215 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		68F0C3992B8ABF7F00440215 /* ClassicalComputingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicalComputingView.swift; sourceTree = "<group>"; };
+		68F0C39B2B8AC63100440215 /* LogicGatesInteractiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogicGatesInteractiveView.swift; sourceTree = "<group>"; };
+		68F0C39E2B8AF0E700440215 /* CascadiaCode.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CascadiaCode.ttf; sourceTree = "<group>"; };
+		68F0C3A02B8AF1C900440215 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		68F0C3A12B8B13A100440215 /* QuantumComputingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumComputingView.swift; sourceTree = "<group>"; };
+		68F0C3A32B8BE7C900440215 /* QuantumParticleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumParticleView.swift; sourceTree = "<group>"; };
+		68F0C3A52B8BE7EE00440215 /* PhotonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotonsView.swift; sourceTree = "<group>"; };
+		68F0C3A72B8BE83000440215 /* AtomsAndIonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomsAndIonsView.swift; sourceTree = "<group>"; };
+		68F0C3A92B8BE84500440215 /* SuperConductingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperConductingView.swift; sourceTree = "<group>"; };
+		68F0C3AB2B8BF41300440215 /* ARQuantPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARQuantPart.swift; sourceTree = "<group>"; };
+		68F0C3AD2B8BF59B00440215 /* ARPhotos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARPhotos.swift; sourceTree = "<group>"; };
+		68F0C3B12B8BFC9500440215 /* ARAtoms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARAtoms.swift; sourceTree = "<group>"; };
+		68F0C3B32B8BFDB300440215 /* ARSuper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSuper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +76,21 @@
 		68F0C3882B89359C00440215 /* QuBiT */ = {
 			isa = PBXGroup;
 			children = (
+				68F0C3A02B8AF1C900440215 /* Info.plist */,
+				68F0C39D2B8AF09A00440215 /* Font */,
 				68F0C3892B89359C00440215 /* AppDelegate.swift */,
 				68F0C38B2B89359C00440215 /* ContentView.swift */,
+				68F0C3992B8ABF7F00440215 /* ClassicalComputingView.swift */,
+				68F0C3A12B8B13A100440215 /* QuantumComputingView.swift */,
+				68F0C3A92B8BE84500440215 /* SuperConductingView.swift */,
+				68F0C3B32B8BFDB300440215 /* ARSuper.swift */,
+				68F0C3A72B8BE83000440215 /* AtomsAndIonsView.swift */,
+				68F0C3B12B8BFC9500440215 /* ARAtoms.swift */,
+				68F0C3A52B8BE7EE00440215 /* PhotonsView.swift */,
+				68F0C3AD2B8BF59B00440215 /* ARPhotos.swift */,
+				68F0C3A32B8BE7C900440215 /* QuantumParticleView.swift */,
+				68F0C3AB2B8BF41300440215 /* ARQuantPart.swift */,
+				68F0C39B2B8AC63100440215 /* LogicGatesInteractiveView.swift */,
 				68F0C38D2B89359D00440215 /* Assets.xcassets */,
 				68F0C38F2B89359D00440215 /* Preview Content */,
 			);
@@ -65,6 +103,14 @@
 				68F0C3902B89359D00440215 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		68F0C39D2B8AF09A00440215 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				68F0C39E2B8AF0E700440215 /* CascadiaCode.ttf */,
+			);
+			path = Font;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +173,7 @@
 			files = (
 				68F0C3912B89359D00440215 /* Preview Assets.xcassets in Resources */,
 				68F0C38E2B89359D00440215 /* Assets.xcassets in Resources */,
+				68F0C39F2B8AF0E700440215 /* CascadiaCode.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +185,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				68F0C38C2B89359C00440215 /* ContentView.swift in Sources */,
+				68F0C39C2B8AC63100440215 /* LogicGatesInteractiveView.swift in Sources */,
+				68F0C3A42B8BE7C900440215 /* QuantumParticleView.swift in Sources */,
+				68F0C3B22B8BFC9500440215 /* ARAtoms.swift in Sources */,
+				68F0C3B42B8BFDB300440215 /* ARSuper.swift in Sources */,
 				68F0C38A2B89359C00440215 /* AppDelegate.swift in Sources */,
+				68F0C3A82B8BE83000440215 /* AtomsAndIonsView.swift in Sources */,
+				68F0C3AC2B8BF41300440215 /* ARQuantPart.swift in Sources */,
+				68F0C3AE2B8BF59B00440215 /* ARPhotos.swift in Sources */,
+				68F0C3AA2B8BE84500440215 /* SuperConductingView.swift in Sources */,
+				68F0C39A2B8ABF7F00440215 /* ClassicalComputingView.swift in Sources */,
+				68F0C3A62B8BE7EE00440215 /* PhotonsView.swift in Sources */,
+				68F0C3A22B8B13A100440215 /* QuantumComputingView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,12 +333,13 @@
 				DEVELOPMENT_TEAM = 2S4NB8UJAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuBiT/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -306,12 +365,13 @@
 				DEVELOPMENT_TEAM = 2S4NB8UJAT;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = QuBiT/Info.plist;
 				INFOPLIST_KEY_NSCameraUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arkit;
 				INFOPLIST_KEY_UIStatusBarHidden = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
