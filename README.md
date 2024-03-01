@@ -1,5 +1,4 @@
-# <img src="https://github.com/ryouol/QuBiT/assets/125412884/4961451a-d91c-40b3-ba6f-10c873fe1063" width="100" alt="QuBiT Logo">
- - Quantum & Classical Computing Educational App
+# <img src="https://github.com/ryouol/QuBiT/assets/125412884/4961451a-d91c-40b3-ba6f-10c873fe1063" width="50" alt="QuBiT Logo">  Quantum & Classical Computing Educational App
 
 ## Overview
 QuBiT is an immersive educational app designed to make learning about quantum and classical computing accessible and engaging. Utilizing the power of augmented reality (AR) and interactive content, QuBiT offers a hands-on experience that brings complex concepts to life.
