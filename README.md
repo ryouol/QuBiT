@@ -27,7 +27,34 @@ Here are some screenshots of the app in action:
 
 
 ## Installation
-To run QuBiT on your iPhone, clone the repository and open the project in Xcode:
-```bash
-git clone https://github.com/yourusername/QuBiT.git
-cd QuBiT
+
+To run QuBiT on your iPhone, follow these detailed steps:
+
+1. **Ensure Prerequisites Are Met**:
+   - Make sure [Xcode](https://developer.apple.com/xcode/) is installed on your Mac. Xcode is necessary for iOS app development and installation.
+   - Verify that your iOS device (iPhone or iPad) is running iOS 16 or later. Although QuBiT is designed for both iPhone and iPad, it is optimized for iPhone.
+
+2. **Clone the QuBiT Repository**:
+   Use the Terminal on your Mac to clone the QuBiT repository from GitHub. Execute the following commands:
+
+   ```bash
+   git clone https://github.com/yourusername/QuBiT.git
+   cd QuBiT
+
+3. **Downloading QuBiT**:
+Use a USB cable to connect your iOS device to your Mac.
+Unlock your iOS device and, if prompted, choose to trust the computer.
+
+Within Xcode, select your connected iOS device as the target device from the drop-down menu at the top of the window.
+
+4. **iPhone settings**:
+Before running the app, you need to trust the developer (Roy Luo) on your iOS device. This is a security measure for apps not downloaded through the App Store.
+Go to Settings > General > Device Management on your iOS device.
+Under "Developer App", tap on "Roy Luo (royluo05@gmail.com)" and then tap "Trust".
+
+5. **Run the App**:
+Back in Xcode, press the Run button (represented by a play icon) to build and run the application on your connected iOS device.
+The first build may take some time as Xcode prepares the app. Subsequent builds will be faster.
+
+Once installed, you can disconnect your iOS device from your Mac.
+You can now launch QuBiT directly from your iOS device at any time, just like any other app installed on your device.
