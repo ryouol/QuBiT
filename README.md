@@ -3,7 +3,8 @@
 ## Overview
 QuBiT is an immersive educational app designed to make learning about quantum and classical computing accessible and engaging. Utilizing the power of augmented reality (AR) and interactive content, QuBiT offers a hands-on experience that brings complex concepts to life.
 
-![QuBiT Logo](https://github.com/ryouol/QuBiT/assets/125412884/63b38ea6-2150-4600-9135-aa589f93f8ed)
+![QuBiT Logo]<img src="https://github.com/ryouol/QuBiT/assets/125412884/4961451a-d91c-40b3-ba6f-10c873fe1063" width="100" alt="QuBiT Logo">
+
 
 ## Features
 - **Interactive AR Learning**: Explore quantum bits (qubits) with AR models that illustrate quantum states.
